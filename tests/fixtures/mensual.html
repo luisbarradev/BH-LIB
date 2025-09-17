@@ -1,0 +1,53 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>INFORME MENSUAL DE BOLETAS DE HONORARIOS ELECTRONICAS</TITLE>
+<link rel="stylesheet" href="/IMT/GLB_estilos.css" type="text/css">
+<script src="https://zeus.sii.cl/admin/barranav.js" type="text/javascript"></script>
+<script type="text/javascript" src="/IMT/js/GLB_links.js" ></script>
+<SCRIPT type="text/javascript">
+var xml_values = new Array();
+xml_values['nombre_contribuyente'] = "LUIS FRANCISCO BARRA SANDOVAL ";
+xml_values['rut_arrastre'] = "12345678";
+xml_values['dv_arrastre']  = "4";
+xml_values['anio_consulta'] = "2025";
+xml_values['mes_consulta'] = "01";
+xml_values['porcentaje_retencion'] = "54";
+xml_values['total_boletas'] = "1";
+xml_values['pagina_solicitada'] = "0";
+
+var arr_informe_mensual = new Array();
+CantidadFilas=1;
+
+xml_values['suma_honorarios'] = 0;
+xml_values['suma_retencion_emisor']     =0;     
+xml_values['suma_retencion_receptor']   =0;     
+xml_values['suma_liquido']              =0;
+
+arr_informe_mensual['nroboleta_1']            =       "3";
+ arr_informe_mensual['usuemisor_1']            =       "LUIS FRANCISCO BARRA SANDOVAL ";
+ arr_informe_mensual['fechaemision_1']         =       "31/01/2025";
+ arr_informe_mensual['rutreceptor_1']          =       "76539813";  
+ arr_informe_mensual['dvreceptor_1']           =       "4"; 
+ arr_informe_mensual['nombrereceptor_1']       =       "EMPRESA SPA";
+ arr_informe_mensual['fecha_boleta_1']         =       "31/01/2025";
+ arr_informe_mensual['totalhonorarios_1']      =       formatMiles("123244",'.');
+ arr_informe_mensual['es_soc_profesional_1']   =       "NO";
+ arr_informe_mensual['email_envio_1']          =       "";        
+  
+ xml_values['suma_honorarios'] += 123244;
+ xml_values['suma_retencion_emisor'] += 0;
+ xml_values['suma_retencion_receptor'] += 65345;
+ xml_values['suma_liquido'] += 4343443;
+ 
+ arr_informe_mensual['retencion_emisor_1']     =       formatMiles("0",'.');       
+ arr_informe_mensual['retencion_receptor_1']   =       formatMiles("65345",'.');       
+ arr_informe_mensual['honorariosliquidos_1']   =       formatMiles("4343443",'.');       
+ 
+ arr_informe_mensual['estado_1']               =       "N";      
+ arr_informe_mensual['fechaanulacion_1']       =       " ";        
+ arr_informe_mensual['codigobarras_1']         =       "12345678AAAAAAAAABB";
+</SCRIPT>
+</HTML>

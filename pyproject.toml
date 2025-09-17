@@ -1,0 +1,20 @@
+[project]
+name = "bh"
+version = "0.1.0"
+description = "Este proyecto proporciona una interfaz programática en Python para interactuar con los servicios de Boletas de Honorarios del SII de Chile."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Luis Barra", email = "luisbarradev@gmail.com" }]
+keywords = ["sii", "boletas", "honorarios", "chile", "api"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Typing :: Typed",
+]
+dependencies = [
+    "requests>=2.32.5",
+    "quickjs>=1.19.3",
+]
