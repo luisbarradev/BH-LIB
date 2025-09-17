@@ -22,7 +22,7 @@ This project uses `uv` for dependency management.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/luisbarradev/BH-LIB
     cd BH
     ```
 
